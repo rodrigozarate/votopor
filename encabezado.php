@@ -22,8 +22,8 @@ include_once('config/config.php');
 		<h1 class="col-12 col-md-6 mb-2 justify-content-center mb-md-0"><?php echo $candidato; ?></h1>
 
         <ul class="nav col-md-3 text-end">
-          <li><a href="apoyos" class="nav-link px-2 text-secondary">Apoyos</a></li>
-          <li><a href="propuestas" class="nav-link px-2 text-white">Propuestas</a></li>
+          <li><a href="/apoyos" class="nav-link px-2 text-secondary">Apoyos</a></li>
+          <li><a href="/propuestas" class="nav-link px-2 text-white">Propuestas</a></li>
           <li><a href="https://dignidadycompromiso.co/" target="_blank" class="nav-link px-2 text-white">Partido</a></li>
         </ul>
       </div>
