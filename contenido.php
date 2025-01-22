@@ -15,16 +15,29 @@
     </div>
   </header>
 <div class="container">
-<h1>Voto por <?php echo $candidato; ?></h1>
-<main class="px-3">
-<div class="card" style="width: 18rem;">
-<img class="card-img-top" src="img/candidato.png" alt="Rodrigo Zarate" />
-<img class="card-img-top" src="img/number.png" alt="<?php echo $numero; ?>" />
-<div class="card-body">
-<h5 class="card-title">Rodrigo Zarate</h5>
-<h6>Registro de Usuario</h6>
-<p class="card-text">Quiero ser Senador con tu apoyo podemos lograrlo.</p>
-<form action="registro.php" method="POST"><label for="nombre">Nombre:</label><br /><input id="nombre" name="nombre" required="" type="text" /><br /><br /><label for="email">Correo electrónico:</label><br /><input id="email" name="email" required="" type="email" /><br /><br /><label for="email">Cédula:</label><br /><input id="cedula" name="cedula" required="" type="number" /><br /><br /><label for="telefono">Celular:</label><br /><input id="celular" name="celular" required="" type="number" /><br /><br /><input type="submit" value="Apoyar" /></form>
-</div>
-</div>
-</main>
+	<div class="col d-flex justify-content-center">
+		<h1>Voto por <?php echo $candidato; ?></h1>
+		<main class="px-3">
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="img/candidato.png" alt="<?php echo $candidato; ?>" />
+				<img class="card-img-number" src="img/number.png" alt="<?php echo $numero; ?>" />
+				<div class="card-body">
+					<h5 class="card-title"><?php echo $candidato; ?></h5>
+					<h6>Registro de Usuario</h6>
+					<p class="card-text"><?php echo $slogan; ?></p>
+					<form action="registro.php" method="POST">
+						<label for="nombre">Nombre:</label><br />
+						<input id="nombre" name="nombre" required="" type="text" />
+						<label for="email">Correo electrónico:</label>
+						<input id="email" name="email" required="" type="email" />
+						<label for="email">Cédula:</label>
+						<input id="cedula" name="cedula" required="" type="number" />
+						<label for="telefono">Celular:</label>
+						<input id="celular" name="celular" required="" type="number" />
+						<input type="submit" value="Apoyar" />
+					</form>
+				</div>
+			</div>
+		</main>
+	</div>
+</div>	
