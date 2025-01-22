@@ -22,4 +22,12 @@
 			</div>
 		</main>
 	</div>
+	<div class="col d-flex justify-content-center">
+		<div class="card" style="width: 18rem;">
+			<div class="card-body">
+				<h5 class="card-title">Apoyos:<?php echo $apoyos; ?></h5>
+				<h5 class="card-title">Meta: <?php echo $meta; ?></h5>
+			</div>
+		</div>
+	</div>
 </div>	
